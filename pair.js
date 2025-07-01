@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*YAkuza X-MD Whatsapp bot*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID*\n\n*You can ask any question using this link*\n\n*https://wa.me/94711072744*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
+            const sid = `*𝕐𝔸𝕜𝕦𝕫𝕒 𝕏-𝕄𝔻 💗 Whatsapp bot*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID*\n\n*You can ask any question using this link*\n\n*https://wa.me/94711072744*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GCjDPOkxJE12jY6BN4FfNO?mode=r_c*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
