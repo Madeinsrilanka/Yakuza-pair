@@ -82,7 +82,13 @@ router.get("/", async (req, res) => {
             );
 
             const sid = `*𝕐𝔸𝕜𝕦𝕫𝕒 𝕏-𝕄𝔻 💗 Whatsapp bot*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID*\n\n*You can ask any question using this link*\n\n*https://wa.me/94711072744*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GCjDPOkxJE12jY6BN4FfNO?mode=r_c*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
+            const mg = `╭───────────❂
+┊ Session Connected✅
+┊ Session එක සම්බන්ධ වී ඇත....☺💐💗
+┊ The Session is connected ago...☺💐💗
+
+> 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 𝕐𝔸𝕜𝕦𝕫𝕒 𝕏-𝕄𝔻 💗
+╰───────────❂`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
                 url: "https://raw.githubusercontent.com/TrojanMD/yakuzamdchatme/main/mythical-dragon-beast-anime-style.jpg",
