@@ -91,7 +91,7 @@ router.get("/", async (req, res) => {
 ╰───────────❂`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/TrojanMD/yakuzamdchatme/main/mythical-dragon-beast-anime-style.jpg",
+                url: "https://raw.githubusercontent.com/Madeinsrilanka/Tgbot/refs/heads/main/freepik-modern-simple-anime-festival-halfpage-banner-20250704061955JHE6.png",
               },
               caption: sid,
             });
